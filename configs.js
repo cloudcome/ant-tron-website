@@ -12,7 +12,6 @@ var pkg = require('./package.json');
 
 var env = getEnv();
 var webroot = env === 'local' ? 'dev' : 'pro';
-var testEnvIndex = process.env.NODE_ENV_TEST;
 var root = __dirname;
 
 module.exports = {
