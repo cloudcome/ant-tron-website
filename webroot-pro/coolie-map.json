@@ -1,0 +1,203 @@
+{
+  "/.views/about-us.html": {
+    "main": [
+      {
+        "src": "../webroot-dev/static/js/main/main.js",
+        "dest": "/static/js/main/632e8136b1c5d95b014191c06b0d0e03.js",
+        "deps": [
+          "../webroot-dev/node_modules/blear.ui.slider/src/index.js",
+          "../webroot-dev/node_modules/blear.ui/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.events/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.class/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.object/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.access/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.typeis/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.collection/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.object/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.array/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.array/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.function/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.function/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.date/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.date/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.number/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.string/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.string/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.json/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.json/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.time/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.time/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.random/src/index.js",
+          "../webroot-dev/node_modules/blear.ui/src/_style/base.css",
+          "../webroot-dev/node_modules/blear.ui/src/_style/input.css",
+          "../webroot-dev/node_modules/blear.ui/src/_style/button.css",
+          "../webroot-dev/node_modules/blear.classes.touchable/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.draggable/src/index.js",
+          "../webroot-dev/node_modules/blear.core.event/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.event/src/index.js",
+          "../webroot-dev/node_modules/blear.core.selector/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.sibling/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.selector/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.compatible/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.class-list/src/index.js",
+          "../webroot-dev/node_modules/blear.core.attribute/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.get-computed-style/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.data-set/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.validator/src/index.js",
+          "../webroot-dev/node_modules/blear.core.layout/src/index.js",
+          "../webroot-dev/node_modules/blear.core.modification/src/index.js"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "dest": "/static/js/114c84271db05c9eb20fb4b8f8ec9a85.js",
+        "deps": [
+          "../webroot-dev/node_modules/coolie.js/coolie.js"
+        ]
+      }
+    ],
+    "css": [
+      {
+        "dest": "/static/css/0e9a283768d9e34a12f180eb91016a2f.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/node_modules/blear.css.reset/src/index.css",
+            "res": []
+          },
+          {
+            "src": "../webroot-dev/node_modules/blear.css.function/src/index.css",
+            "res": []
+          }
+        ]
+      },
+      {
+        "dest": "/static/css/0e6177f8d4a9d9d05bc30641fae58f7f.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/static/css/components/header.css",
+            "res": []
+          },
+          {
+            "src": "../webroot-dev/static/css/components/footer.css",
+            "res": []
+          },
+          {
+            "src": "../webroot-dev/static/css/components/about-us.css",
+            "res": []
+          }
+        ]
+      },
+      {
+        "dest": "/static/css/3dd123fd9bc122e6ee3ba5768aea3b97.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/static/css/main/main.css",
+            "res": []
+          }
+        ]
+      }
+    ],
+    "res": []
+  },
+  "/.views/components/about-us.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": []
+  },
+  "/.views/components/footer.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/img/beian.png"
+    ]
+  },
+  "/.views/components/header.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/img/logo.png"
+    ]
+  },
+  "/.views/components/meta.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/favicon.ico"
+    ]
+  },
+  "/.views/index.html": {
+    "main": [
+      {
+        "src": "../webroot-dev/static/js/main/main.js",
+        "dest": "/static/js/main/632e8136b1c5d95b014191c06b0d0e03.js",
+        "deps": [
+          "../webroot-dev/node_modules/blear.ui/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.events/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.class/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.object/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.access/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.typeis/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.collection/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.object/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.array/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.array/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.function/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.function/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.date/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.date/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.number/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.string/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.string/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.json/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.json/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.time/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.time/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.random/src/index.js",
+          "../webroot-dev/node_modules/blear.ui/src/_style/base.css",
+          "../webroot-dev/node_modules/blear.ui/src/_style/input.css",
+          "../webroot-dev/node_modules/blear.ui/src/_style/button.css",
+          "../webroot-dev/node_modules/blear.classes.touchable/src/index.js",
+          "../webroot-dev/node_modules/blear.classes.draggable/src/index.js",
+          "../webroot-dev/node_modules/blear.core.event/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.event/src/index.js",
+          "../webroot-dev/node_modules/blear.core.selector/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.sibling/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.selector/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.compatible/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.class-list/src/index.js",
+          "../webroot-dev/node_modules/blear.core.attribute/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.get-computed-style/src/index.js",
+          "../webroot-dev/node_modules/blear.polyfills.data-set/src/index.js",
+          "../webroot-dev/node_modules/blear.utils.validator/src/index.js",
+          "../webroot-dev/node_modules/blear.core.layout/src/index.js",
+          "../webroot-dev/node_modules/blear.core.modification/src/index.js"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "dest": "/static/js/114c84271db05c9eb20fb4b8f8ec9a85.js",
+        "deps": [
+          "../webroot-dev/node_modules/coolie.js/coolie.js"
+        ]
+      }
+    ],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/img/equipment.png",
+      "../webroot-dev/static/img/fingerprint-app.png",
+      "../webroot-dev/static/img/fingerprint-cloud.png",
+      "../webroot-dev/static/img/solution.png",
+      "../webroot-dev/static/img/gather.png",
+      "../webroot-dev/static/img/data-change.png",
+      "../webroot-dev/static/img/verification.png",
+      "../webroot-dev/static/img/organization.png",
+      "../webroot-dev/static/img/banner-1.png"
+    ]
+  }
+}
