@@ -1,0 +1,39 @@
+.header {
+  $bg-color: #252534;
+
+  background: $bg-color;
+  height: 70px;
+  line-height: 70px;
+
+  &-inner {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  &-logo {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+
+    &-text {
+      position: absolute;
+      visibility: hidden;
+    }
+  }
+
+  &-nav {
+    li {
+      a {
+        display: block;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+
+        &:hover {
+          background: darken($bg-color, 10%);
+        }
+      }
+    }
+  }
+}

@@ -8,19 +8,135 @@
 <head>
     {{#include /components/meta.html}}
     <title>main.html</title>
+
+    <!--coolie-->
+    <link rel="stylesheet" href="/node_modules/blear.css.reset/src/index.css">
+    <link rel="stylesheet" href="/node_modules/blear.css.function/src/index.css">
+    <!--/coolie-->
+
+    <!--coolie-->
+    <link rel="stylesheet" href="/static/css/components/header.css">
+    <link rel="stylesheet" href="/static/css/components/footer.css">
+    <!--/coolie-->
+
+    <!--coolie-->
+    <link rel="stylesheet" href="/static/css/main/index.css">
+    <!--/coolie-->
 </head>
 <body ontouchstart="">
 {{#include /components/header.html}}
 
 <div class="banner" id="banner">
-    <ul>
+    <ul class="banner-list">
         <li style="background-image:url(/static/img/banner-0.png)"></li>
         <li style="background-image:url(/static/img/banner-1.png)"></li>
     </ul>
 </div>
 
 <div class="container">
+    <div class="section">
+        <div class="section-name">身份识别专家</div>
+        <div class="section-title">为各行业提供基于指纹识别技术的应用解决方案</div>
+        <div class="section-content">
+            <ul class="introduction clearfix">
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/equipment.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">指纹终端</div>
+                       <div class="introduction-desc">包含指纹采集终端、指纹采集模块、指纹验证终端。在物理结构上兼容多种指纹传感器，如电容式FPC1011、FPC1020、TCS、光学等。具备自主知识产权的活体检测算法、能够自动处理不同干湿手指；支持在线和离线等多种使用场景。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/fingerprint-app.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">指纹应用</div>
+                       <div class="introduction-desc">是为各行业提供、安全、快捷的现代化工作和生活方式的指纹应用场景管理的综合性平台。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/fingerprint-cloud.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">指纹云</div>
+                       <div class="introduction-desc">在多年指纹识别技术积累的基础上，依托蚁创私有云技术，可为大部分细分行业提供数据分析、数据终端接口。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/solution.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">解决方案</div>
+                       <div class="introduction-desc">提供Android平台指纹应用解决方案，支持多种指纹图像，如160*160,128*128*，128*80，96*96。匹配时间小于1秒，FAR&lt;0.01%,FRR&lt;1%。</div>
+                   </div>
+               </li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="section">
+        <div class="section-name">无线温湿度验证系统</div>
+        <div class="section-title">全球领先的无线温湿度验证系统提供商，广泛用于制药、食品、医疗、运输等行业</div>
+        <div class="section-content">
+            <ul class="introduction clearfix">
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/gather.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">数据采集器</div>
+                       <div class="introduction-desc">是一个非常小的无线独立部件，可以自动按设定的时间间隔探测关键的参数，如温度，湿度，然后记录在安全芯片中，并由自带电池持续供电。有提供温度、压力和温度三种数据采集器。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/data-change.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">数据交换盒</div>
+                       <div class="introduction-desc">可以将数据采集器放入其中，通过专用数据线与电脑相连接，将数据从采集器中传输到电脑，另外也可用于完成数据采集器的初始化设置。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/verification.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">验证系统</div>
+                       <div class="introduction-desc">基于 Windows 平台的软件，能够自适应多款数据采集器，完成数据收集、分类、分析、报告等强大功能。</div>
+                   </div>
+               </li>
+               <li class="pull-left">
+                   <div class="introduction-icon"><img src="/static/img/organization.png" alt="icon" width="200" height="200"></div>
+                   <div class="introduction-content">
+                       <div class="introduction-title">检测中心</div>
+                       <div class="introduction-desc">正向国家相关单位申请检测单位许可，敬请期待！</div>
+                   </div>
+               </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-name">关于我们</div>
+        <div class="section-content">
+            <div class="aboutUs">
+                <p>杭州蚁创科技有限定位于您身边的专家，主要涉及身份识别领域和环境数据的采集并提供数据分析的一家高科技公司。公司核心团队由曹博士等海归成员组成。</p>
+                <p>身份识别专家，专注于研发和生产光学、半导体指纹模块、并提供指纹应用整体解决方案。在长期的耕耘中，蚁创科技不仅积累了业界的良好口碑而且逐渐形成了一套完整的客户开发与支持体系。产品已经广泛使用于锁具、保险（管）箱柜、考勤门禁、安监，智能家居等众多领域。</p>
+                <p>用数据感知世界，专注于研发和生产环境数据采集模块，包含温度、湿度、压力等数据采集。并提供环境数据分析整体解决方案。产品已经广泛使用于智慧医疗、制药行业、食品行业、智慧农业、智能家居等众多领域。</p>
+
+                <ul class="aboutUs-list">
+                    <li>
+                        <div class="aboutUs-key">邮&nbsp;&nbsp;&nbsp;&nbsp;箱：</div>
+                        <div class="aboutUs-val">business@ant-tron.com</div>
+                    </li>
+                    <li>
+                        <div class="aboutUs-key">地&nbsp;&nbsp;&nbsp;&nbsp;址：</div>
+                        <div class="aboutUs-val">杭州市江干区大世界五金城7幢220室</div>
+                    </li>
+                    <li>
+                        <div class="aboutUs-key">联系人：</div>
+                        <div class="aboutUs-val">陈敬文</div>
+                    </li>
+                    <li>
+                        <div class="aboutUs-key">电&nbsp;&nbsp;&nbsp;&nbsp;话：</div>
+                        <div class="aboutUs-val">13777449663</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
 {{#include /components/footer.html}}

@@ -1,0 +1,22 @@
+.header {
+  background: #252534;
+  height: 70px;
+  line-height: 70px; }
+  .header-inner {
+    width: 1100px;
+    margin: 0 auto; }
+  .header-logo {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 15px; }
+    .header-logo-text {
+      position: absolute;
+      visibility: hidden; }
+  .header-nav li a {
+    display: block;
+    color: #fff;
+    width: 100px;
+    text-align: center; }
+    .header-nav li a:hover {
+      background: #101016; }
