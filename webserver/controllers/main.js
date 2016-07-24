@@ -12,15 +12,15 @@ var howdo = require('blear.utils.howdo');
 var weixin = require('blear.node.weixin');
 
 var configs = require('../../configs');
-var pkg = require('../../package.json');
-
 
 var router = new Router();
 
 router.get('/', function (req, res, next) {
-    res.render('main.html', {
-        pkg: pkg
-    });
+    res.render('index.html');
+});
+
+router.get('/about-us', function (req, res, next) {
+    res.render('about-us.html');
 });
 
 module.exports = router;
