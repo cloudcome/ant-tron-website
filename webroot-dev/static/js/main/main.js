@@ -1,5 +1,5 @@
 /**
- * 文件描述
+ * main
  * @author ydr.me
  * @create 2016-07-24 13:13
  */
@@ -9,13 +9,20 @@
 
 var Slider = require('blear.ui.slider');
 var layout = require('blear.core.layout');
+var selector = require('blear.core.selector');
 
 var buildSlider = function () {
-    var bannerRatio = 1366/377;
+    var bannerEl = selector.query('#banner')[0];
+
+    if (!bannerEl) {
+        return;
+    }
+
+    var bannerRatio = 1366 / 377;
     var bannerWidth = layout.width(document);
-    var bannerHeight = bannerWidth/bannerRatio;
+    var bannerHeight = bannerWidth / bannerRatio;
     new Slider({
-        el: '#banner',
+        el: bannerEl,
         width: bannerWidth,
         height: bannerHeight
     });
