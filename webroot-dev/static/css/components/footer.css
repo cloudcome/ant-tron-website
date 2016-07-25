@@ -5,6 +5,8 @@
   color: #828282;
   line-height: 30px;
   font-size: 12px; }
+  .footer-slice {
+    margin: 0 4px; }
   .footer a {
     color: #828282; }
     .footer a:hover {
