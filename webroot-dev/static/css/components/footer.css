@@ -5,6 +5,10 @@
   color: #828282;
   line-height: 30px;
   font-size: 12px; }
+  .footer a {
+    color: #828282; }
+    .footer a:hover {
+      color: #a5a5a5; }
   .footer img {
     vertical-align: middle;
     margin-right: 2px; }
