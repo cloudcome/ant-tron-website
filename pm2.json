@@ -1,5 +1,5 @@
 {
-  "name": "ant-tron-website",
+  "name": "ant-tron.com",
   "cwd": "./",
   "script": "./app.js",
   "error_file": "./logs/err.log",
