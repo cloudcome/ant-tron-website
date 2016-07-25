@@ -72,7 +72,7 @@
         ]
       },
       {
-        "dest": "/static/css/0e6177f8d4a9d9d05bc30641fae58f7f.css",
+        "dest": "/static/css/52d99990952e7e71e143cb5f89649799.css",
         "deps": [
           {
             "src": "../webroot-dev/static/css/components/header.css",
@@ -129,6 +129,12 @@
     "res": [
       "../webroot-dev/favicon.ico"
     ]
+  },
+  "/.views/error.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": []
   },
   "/.views/index.html": {
     "main": [
