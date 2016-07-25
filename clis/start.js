@@ -14,6 +14,7 @@ var util = require('util');
 var childProcess = require('child_process');
 
 var pkg = require('../package.json');
+var pm2 = require('../pm2.json');
 var configs = require('../configs.js');
 
 var startTime = Date.now();
@@ -245,7 +246,7 @@ var startDebug = function (callback) {
 var startPM2 = function (callback) {
     exec([
         'pm2 start pm2.json',
-        'pm2 show ' + pkg.name
+        'pm2 show ' + pm2.name
     ], callback);
 };
 
